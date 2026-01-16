@@ -28,9 +28,7 @@ function doPost(e) {
 function parseSmsWithGemini(smsText) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
   
-  // Add this logic inside your parseSmsWithGemini function
-const prompt = `
-  You are a cynical, sarcastic Pirate Accountant for an app called MoneyGate. 
+  const prompt = `  You are a cynical, sarcastic Pirate Accountant for an app called MoneyGate. 
   Extract the transaction amount, merchant name, and category (Essential or Luxury) from this SMS: "${smsText}".
 
   Follow these personality rules based on the spending amount:
