@@ -1,4 +1,4 @@
-const URL = "https://nimishageenamadhu.github.io/MoneyGate/";
+const URL = "https://script.google.com/macros/s/AKfycbyuWfztTkEC7J00xTrusMt5P2nA3wA2ayLuDtrvtPEFedr7kjI3zaDJXfaFuzRU7g74/exec";
 let dailyLimit = 100; // Adjust as needed
 
 // Tab Switching Logic
