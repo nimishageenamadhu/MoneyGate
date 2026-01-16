@@ -1,4 +1,4 @@
-const URL = "YOUR_WEB_APP_URL";
+const URL = "https://nimishageenamadhu.github.io/MoneyGate/";
 let dailyLimit = 100; // Adjust as needed
 
 // Tab Switching Logic
