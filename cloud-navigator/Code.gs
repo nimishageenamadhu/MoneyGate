@@ -60,3 +60,11 @@ function parseSmsWithGemini(smsText) {
   
   return JSON.parse(jsonString);
 }
+
+//index.html can READ the data
+function doGet() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const data = sheet.getDataRange().getValues(); 
+  return ContentService.createTextOutput(JSON.stringify(data))
+    .setMimeType(ContentService.MimeType.JSON);
+}
