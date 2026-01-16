@@ -3,7 +3,7 @@ import requests
 import time
 
 
-URL = "Phttps://script.google.com/macros/s/AKfycbyuWfztTkEC7J00xTrusMt5P2nA3wA2ayLuDtrvtPEFedr7kjI3zaDJXfaFuzRU7g74/exec"
+URL = "https://script.google.com/macros/s/AKfycbzEiiC-15BK5UswDnRS4KNTB7UG0AvRUqSE4cQxULD-jACv1yr4PsBOtNKKQ0sD7VpT/exec"
 
 def get_sms():
     # This command grabs the last SMS received on the phone
